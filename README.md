@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# LABEX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">O projeto Labex foi feito para os usuários que querem viajá para outro planeta.</p>
+<p align="center">Esse projeto tem a área de inscrição para a viagem e a área de administração (com a provabilidade de criar novas viagens e aceita os candidatos que se inscreveram nas viagens já listadas).</p>
 
-## Available Scripts
+<br>
+<hr>
 
-In the project directory, you can run:
+<div align="center">
+<h2>Área de viagens</h2>
+<img alt="Home" title="Home" src="./src/img/Readme_Labex_Viagens.gif"/>
+<h2>Área de administração</h2>
+<img alt="Home" title="Home" src="./src/img/Readme_Labex_Admin.gif"/>
+</div>
 
-### `npm start`
+<br>
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Pré-requisitos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p>Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: <a href="https://git-scm.com/downloads">Git</a>, <a href="https://nodejs.org/en/download/">Node.js</a>. <br> Além disto é bom ter um editor para trabalhar com o código como o <a href="https://code.visualstudio.com/">Visual Studio Code</a>.</p>
 
-### `npm test`
+### Rodando o Projeto
+```bash
+# Clone o repositório
+$ git clone https://github.com/MaritoAmbrosio/projeto-labex.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Acessa a pasta do projeto no terminal/cmd
+$ cd projeto_labex
 
-### `npm run build`
+# Abra o VSC
+$ code .
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Execute o comando para baixar as dependências do projeto
+$ npm i
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Exercute o comando para rodar o projeto na sua máquina
+$ npm run start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Email e senha para poder entra na área de administração
+email: astrodev@gmail.com.br
+senha: 123456
+```
+<hr>
 
-### `npm run eject`
+### Tecnologias
+<p>As seguintes ferramentas foram usadas na construção desse projeto.</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<ul>
+  <li> <a href="https://nodejs.org/en/download/"> Node.js </a> </li>
+  <li> <a href="https://pt-br.reactjs.org/"> React </a> </li>
+  <li> <a href="https://styled-components.com/"> Styled Components </a> </li>
+  <li> <a href="https://code.visualstudio.com/">Visual Studio Code </a> </li>
+</ul>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<hr>
+<p>Feito por Mario Ambrosio 🖥️<a href="https://www.linkedin.com/in/mario-ambrosio-406353203">Linkedin</a> </p>
